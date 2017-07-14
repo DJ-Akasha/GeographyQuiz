@@ -77,12 +77,21 @@ public class MainActivity extends AppCompatActivity {
         q7d.setChecked(false);
     }
 
+    /**
+     * pressing the button calculate and display the overall score in a toast message
+     *
+     * @param view
+     */
     public void submitButton(View view) {
 
         String resultText = getResources().getString(R.string.you_got) + " " + getScore() + " " + getString(R.string.out_of);
         Toast.makeText(this, resultText, Toast.LENGTH_LONG).show();
     }
 
+    /**
+     * checks all answers and
+     * @return overall score
+     */
     private int getScore() {
         int total = 0;
         //check first question
