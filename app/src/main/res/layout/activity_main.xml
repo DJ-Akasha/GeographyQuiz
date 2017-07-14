@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Welcome to geography quiz!"
+                android:text="@string/welcome"
                 android:textAlignment="center"
                 android:textColor="@color/darkGrey"
                 android:textSize="18sp" />
@@ -34,6 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:contentDescription="@string/iconDescription"
                 android:scaleType="fitCenter"
                 android:src="@drawable/quizimage" />
 
@@ -336,7 +337,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:onClick="submitButton"
-            android:text="Submit answers" />
+            android:text="@string/submit" />
     </LinearLayout>
 
 </ScrollView>

@@ -21,7 +21,7 @@
     <string name="true_text">true</string>
     <string name="false_text">false</string>
     <string name="your_answer">type your answer here</string>
-    <string name="submit">submit</string>
+    <string name="submit">Submit Answers</string>
     <string name="start">start</string>
     <string name="you_got">Your score is </string>
     <string name="out_of">out of 7. Press Start to restart the quiz.</string>
@@ -39,4 +39,5 @@
     <string name="q_4_d">Vietnam</string>
     <string name="q_6_a">Ukraine</string>
     <string name="q_6_b">Turkey</string>
+    <string name="iconDescription">image of earth with a question mark over it</string>
 </resources>
