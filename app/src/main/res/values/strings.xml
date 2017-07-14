@@ -24,7 +24,7 @@
     <string name="submit">submit</string>
     <string name="start">start</string>
     <string name="you_got">Your score is </string>
-    <string name="out_of">out of seven. Press Start to restart the quiz.</string>
+    <string name="out_of">out of 7. Press Start to restart the quiz.</string>
     <string name="q_2_a">Canada</string>
     <string name="q_2_b">Mexico</string>
     <string name="q_2_c">Cuba</string>

@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:scaleType="fitCenter"
-                android:src="@drawable/whatever" />
+                android:src="@drawable/quizimage" />
 
 
             <TextView
@@ -51,6 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="12dp"
+                android:onClick="startButton"
                 android:padding="12dp"
                 android:text="@string/start" />
 
@@ -83,7 +84,6 @@
                 <RadioButton
                     android:id="@+id/answer_1_true"
                     style="@style/radio_buttons"
-                    android:checked="true"
                     android:text="@string/true_text" />
 
                 <RadioButton
@@ -158,11 +158,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorPrimary"
-                android:textCursorDrawable="@null"
                 android:hint="@string/q3_hint"
                 android:inputType="text"
                 android:maxLines="1"
                 android:paddingLeft="12dp"
+                android:textCursorDrawable="@null"
                 android:textSize="14sp" />
 
             <View
@@ -193,7 +193,6 @@
                 <RadioButton
                     android:id="@+id/answer_4_a"
                     style="@style/radio_buttons"
-                    android:checked="true"
                     android:text="@string/q_4_a" />
 
                 <RadioButton
@@ -241,7 +240,6 @@
                 <RadioButton
                     android:id="@+id/answer_5_true"
                     style="@style/radio_buttons"
-                    android:checked="true"
                     android:text="@string/true_text" />
 
                 <RadioButton
@@ -279,7 +277,6 @@
                 <RadioButton
                     android:id="@+id/answer_6_a"
                     style="@style/radio_buttons"
-                    android:checked="true"
                     android:text="@string/q_6_a" />
 
                 <RadioButton
@@ -338,6 +335,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:onClick="submitButton"
             android:text="Submit answers" />
     </LinearLayout>
 

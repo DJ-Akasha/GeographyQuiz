@@ -35,16 +35,18 @@
 
 
     <style name="radio_buttons">
-        <item name="android:buttonTint">@color/colorPrimary</item>
+        <!-- <item name="android:buttonTint">@color/colorPrimary</item> -->
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:checked">false</item>
     </style>
 
     <style name="checkbox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:buttonTint">@color/colorPrimary</item>
+        <item name="android:checked">false</item>
+        <!-- <item name="android:buttonTint">@color/colorPrimary</item> -->
 
     </style>
 
