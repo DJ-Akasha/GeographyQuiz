@@ -2,7 +2,7 @@
     <string name="app_name">Geography Quiz</string>
     <string name="title">geography quiz</string>
     <string name="welcome">Welcome to the Geography Quiz!</string>
-    <string name="welcome_message">Below you\'ll find seven geography related questions. \nThere are true/false questions, multiple choice questions, text answers. \nAfter you are done, press the SUBMIT button at the end of the quiz to see your results. Only accurate answers count. \nYou can reset and restart the game by pressing the START button at the top. \n\nHave fun! </string>
+    <string name="welcome_message">Below you\'ll find seven geography related questions. \nThere are true/false questions, multiple choice questions, text answers. \nAfter you are done, press the SUBMIT button at the end of the quiz to see your results. Only accurate answers count. \nYou can reset and restart the game by pressing the RESTART button. \n\nHave fun! </string>
     <string name="question1">Question 1</string>
     <string name="question2">Question 2</string>
     <string name="question3">Question 3</string>
@@ -22,7 +22,7 @@
     <string name="false_text">false</string>
     <string name="your_answer">type your answer here</string>
     <string name="submit">Submit Answers</string>
-    <string name="start">start</string>
+    <string name="start">restart</string>
     <string name="you_got">Your score is </string>
     <string name="out_of">out of 7. Press Start to restart the quiz.</string>
     <string name="q_2_a">Canada</string>

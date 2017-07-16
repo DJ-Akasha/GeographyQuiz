@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         int total = 0;
         //check first question
 
-        RadioButton q1Button = (RadioButton) findViewById(R.id.answer_1_false);
+        RadioButton q1Button = (RadioButton) findViewById(R.id.answer_1_b);
         if (q1Button.isChecked()) {
             total += 1;
         }
